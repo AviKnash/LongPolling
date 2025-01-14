@@ -30,7 +30,7 @@ function App() {
 
     // Cleanup on component unmount
     return () => {
-      isMounted = false;
+      isMounted = false
     };
   }, []);
 
