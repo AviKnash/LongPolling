@@ -21,7 +21,7 @@ function App() {
           console.error('Error while polling:', error);
           if (isMounted) {
             setTimeout(startPolling, 2000);  // Retry after a delay on error
-          }
+          };
         });
     };
 
